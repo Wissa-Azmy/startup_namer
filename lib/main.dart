@@ -11,7 +11,10 @@ class MyApp extends StatelessWidget {
     // TODO: implement build
     return MaterialApp(
       title: "Startup Namer",
-      home: RandomWords()
+      home: RandomWords(),
+      theme: ThemeData(
+        primaryColor: Colors.cyan
+      ),
     );
   }
 }
